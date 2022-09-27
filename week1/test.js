@@ -50,4 +50,28 @@ if(num === 20){
 } else { 
     console.log("less than");
 }
-
+console.log('something'.indexOf('o'));
+if (!0){
+    console.log('in the if');
+} else {
+    console.log('in the else');
+} 
+let num2 = 20;
+if (num = 30){
+    console.log('in the if');
+} else {
+    console.log('in the else')
+}
+function foo(){
+    return 'bar';
+}
+console.log(foo());
+console.log(foo);
+function foo2(p1,p2){
+    return p1 + ' ' + p2;
+}
+console.log(foo2('Soe','Kaythi'));
+let foo3 = () => {
+    return 'bar';
+}
+console.log(foo3());
