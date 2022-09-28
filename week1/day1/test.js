@@ -34,7 +34,7 @@ console.log(name1);
 console.log(name1==="Jonathan");
 let test
 console.log(test);
-if(20===20)
+if(20 === 20)
 {
     console.log("they are equal");
 }
@@ -62,16 +62,3 @@ if (num = 30){
 } else {
     console.log('in the else')
 }
-function foo(){
-    return 'bar';
-}
-console.log(foo());
-console.log(foo);
-function foo2(p1,p2){
-    return p1 + ' ' + p2;
-}
-console.log(foo2('Soe','Kaythi'));
-let foo3 = () => {
-    return 'bar';
-}
-console.log(foo3());

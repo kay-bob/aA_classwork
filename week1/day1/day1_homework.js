@@ -31,30 +31,31 @@ console.log('bootcamp'.indexOf('0') > -1);
 console.log('science'.indexOf('x') === -1);
 // 1
 var idx = 'abcde'.indexOf('D');
-idx = idx + 11;
-console.log(idx); // ?
+console.log('idx is ', idx) // -1
+idx = idx + 11; // 10
+console.log(idx); // 10
 idx * 2;
-console.log(idx); // ?
+console.log(idx); // 10
 // 2
 var num = 33;
 var isEven = num % 2 === 0;
-console.log(isEven); // ?
-console.log(!isEven); // ?
+console.log(isEven); // false
+console.log(!isEven); // true
 // 3
 var str1 = 'marker';
 var num = 'whiteboard'.length - str1.length;
-console.log(num); // ?
+console.log(num); // 4
 var str2 = 'bootcamp';
-console.log(str2[num].toUpperCase()); // ?
-var char = str2[num].toLowerCase(); // ?
-console.log(char + '!'); // ?
+console.log(str2[num].toUpperCase()); // C
+var char = str2[num].toLowerCase(); // c
+console.log(char + '!'); // c!
 // 4
 var sentence = 'welcome to bootcamp prep';
 var lastChar = sentence[sentence.length - 1];
-console.log(lastChar); // ?
-console.log(sentence.indexOf(lastChar)); // ?
+console.log(lastChar); // p
+console.log(sentence.indexOf(lastChar)); // 18
 // 5
-var age = 30; // try different numbers here
+var age = 40; 
 
 if (age > 30) {
   console.log('older than 30');
@@ -62,7 +63,7 @@ if (age > 30) {
   console.log('younger than 30');
 }
 // 6
-var str = 'pizza'; // try different strings here
+var str = 'sushi'; 
 
 if (str.length > 10) {
   console.log('long string');
@@ -73,15 +74,14 @@ if (str[0] === 'p') {
   console.log('starts with p');
 }
 // 7
-var num = 15; // try different numbers here
-
+var num = 18; 
 if (num % 3 === 0) {
   console.log('divisible by 3');
 } else if (num % 5 === 0) {
   console.log('divisible by 5');
 }
 // 8
-var num = 15; // try different numbers here
+var num = 22; 
 
 if (num % 3 === 0) {
   console.log('divisible by 3');
@@ -90,13 +90,14 @@ if (num % 5 === 0) {
   console.log('divisible by 5');
 }
 // 9
-var str = 'goodwill store'; 
+var str = 'Goodwill Store'; 
 if (str[0] === str[0].toUpperCase()) {
   console.log('starts with a capital!');
 }
 if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
   console.log('ends with a capital!');
 }
+
 // 10
 var num = -39; 
 
