@@ -34,8 +34,7 @@ console.log(name1);
 console.log(name1==="Jonathan");
 let test
 console.log(test);
-if(20 === 20)
-{
+if(20 === 20){
     console.log("they are equal");
 }
 else
